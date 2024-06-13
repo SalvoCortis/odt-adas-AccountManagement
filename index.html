@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Salvatore Cortis">
+  <meta name="keywords" content="ODT-ADAS system">
+  <title>ODT-ADAS System</title>
+
+  <link rel="stylesheet" href="./css/index.css">
+  <script src="http://localhost:8080/js/keycloak.js"></script>
+  <script src="./js/index.js"></script>
+  <link rel="shortcut icon" href="./img/thales-logo.png" type="image/x-icon">
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body onload="keycloakLogin()">
+  <nav>
+    <div class="bar"> 
+
+        <ul class="homeBar">
+            <li class="iconBar"><a href="http://localhost:3000/" class="iconBar"><img src="./img/thales-logo.png" alt="icon.png" class="icon"></a></li>
+        </ul>
+
+        <ul class="homeBar" id="list">
+            <li class="homeBar"> <a href="http://localhost:3000/" class="homeBar">HOME</a></li>
+        </ul>
+    </div>
+</nav>
+
+  <div id="home">
+    <!--
+    <div style="height:400px;">
+        <video style="float:right;" width="450" height="250" autoplay loop controls muted>
+            <source src="">
+        </video> 
+    </div>
+    -->
+    <h1 id="title">HOME</h1>
+
+</body>
+</html>

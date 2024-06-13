@@ -1,0 +1,2 @@
+cd /mnt/c/users/salvo/Desktop/Università/Tesi/Fase4/odt-adas
+python3 -m http.server 3000
