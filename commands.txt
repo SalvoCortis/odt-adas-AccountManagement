@@ -1,2 +1,2 @@
-cd /mnt/c/users/salvo/Desktop/Università/Tesi/Fase4/odt-adas
+cd <main folder of the application>
 python3 -m http.server 3000
