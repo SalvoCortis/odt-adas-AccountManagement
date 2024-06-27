@@ -1,2 +1,2 @@
-cd <main folder of the application>
-python3 -m http.server 3000
+1) cd <main folder of the application>
+2) python3 -m http.server 3000 or npx http-server -p 3000 (better the second one)
